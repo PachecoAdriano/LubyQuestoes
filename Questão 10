@@ -1,0 +1,7 @@
+let array1 = [6,8]
+let array2 = [8,9]
+let newArray = []
+
+newArray = array1.filter(item => array2.includes(item))
+
+console.log(newArray);
