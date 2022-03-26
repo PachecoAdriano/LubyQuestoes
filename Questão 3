@@ -1,0 +1,9 @@
+let a = [1,2,"", undefined]
+let b = []
+
+      b = a.filter(function (i) {
+				return i;
+			})
+
+ console.log(b)
+
