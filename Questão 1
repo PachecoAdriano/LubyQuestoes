@@ -1,0 +1,9 @@
+let x = 3
+let y = "a"
+let result = []
+
+
+  for ( let i = 0; i < x ; i++){
+  result.push(y)   
+  }
+ console.log(result)
