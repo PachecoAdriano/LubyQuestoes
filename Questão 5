@@ -1,0 +1,11 @@
+let a = [5,4,3,2,5]
+let n1 = 5
+let n2 = 3
+let newArray = []
+
+      for (i = 0; i < a.length; i++) {				
+				if (a[i] !== n1 && a[i] !== n2) 
+					newArray.push(a[i])
+			}		
+
+ console.log(newArray)
