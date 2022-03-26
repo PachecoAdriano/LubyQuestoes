@@ -1,0 +1,10 @@
+let array1 = [1,2,3,4]
+let array2 = [1,2,3,4]
+
+returnArray(array1, array2)
+
+function returnArray(array1, array2) {
+  return	(array1 === array2) ? true : false    
+}
+
+console.log (returnArray())
