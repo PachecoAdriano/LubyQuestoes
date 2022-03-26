@@ -1,0 +1,6 @@
+let a = [["c",2],["d",4]]
+
+ arrayToObject = Object.fromEntries(a)			
+
+ console.log(arrayToObject)
+
