@@ -1,0 +1,8 @@
+let array = [1, 2, 3, 4, 5]
+let size = 2
+let newArray = [];
+
+  while (array.length > 0)
+    newArray.push(array.splice(0, size))
+
+  console.log(newArray)
